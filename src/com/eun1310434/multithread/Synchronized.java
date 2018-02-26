@@ -7,7 +7,7 @@
 package com.eun1310434.multithread;
 class Synchronized_runnable implements Runnable {
 	public synchronized void sync_01() {
-		//synchronized를 처리한 해당 함수 전체에  적용
+		//synchronized를 처리한 해당 함수 전체에  적용ss
 		
 		String threadName = Thread.currentThread().getName();
 		System.out.println(threadName+" : sync_01() - Start!!");
